@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Chat Regardless of Time Difference</string>
+    <string name="sendPhoto">Photo Camera</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="select_picture_title">Get Photo From</string>
+    <string name="sendPhotoGallery">Photo Gallery</string>
+    <string name="api_key_google_places">AIzaSyB8KJwRMjbGuQ1K5sww4_cJN6iBXKQHjPM</string>
+    <string name="sendLocation">Send Location</string>
+    <string name="locationTo">Localização Enviada</string>
+    <string name="title_activity_user_list">User_list</string>
+</resources>

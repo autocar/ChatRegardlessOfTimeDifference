@@ -1,0 +1,26 @@
+application: chat-166522
+version: 6
+runtime: php55
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /
+  script: register.php
+
+- url: /push
+  script: push_notification.php
+
+- url: /stt
+  script: quickstart.php
+
+# [START env]
+env_variables:
+  # Replace project, instance, database, user and password with the values obtained
+  # when configuring your Cloud SQL instance.
+  MYSQL_DSN: mysql:unix_socket=/cloudsql/chat-166522:us-central1:id-db;dbname=id_db
+  MYSQL_USER: root
+  MYSQL_PASSWORD: '1234'
+  DEVELOPMENT_DB_HOST: '104.197.55.145'
+  PRODUCTION_DB_NAME: 'id_db'
+# [END env]

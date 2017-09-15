@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="@string/sendPhoto"
+        android:id="@+id/sendPhoto"
+        app:showAsAction="never"/>
+
+    <item
+        android:title="@string/sendPhotoGallery"
+        android:id="@+id/sendPhotoGallery"
+        app:showAsAction="never"/>
+    <item
+        android:title="@string/sign_out"
+        android:id="@+id/sign_out"
+        app:showAsAction="never"/>
+    <item
+        android:title="Time in there"
+        android:id="@+id/time_there"
+        app:showAsAction="never"/>
+
+</menu>
